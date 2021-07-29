@@ -8,7 +8,7 @@ function Component() {
      <div>
         <p>you voted {snack1} times!</p>
        <button onClick={() => setCount1(snack1 + 1)}>
-        Vote here
+        Vote here!
         </button>
       </div>
    );
