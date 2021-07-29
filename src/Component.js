@@ -6,7 +6,7 @@ function Component() {
 
     return (
      <div>
-        <p>You clicked {snack1} times</p>
+        <p>you voted {snack1} times!</p>
        <button onClick={() => setCount1(snack1 + 1)}>
         Click me
         </button>
