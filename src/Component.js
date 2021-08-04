@@ -6,12 +6,12 @@ function Component() {
 
     return (
      <div>
-        <p>You voted for {snack1} </p>
+        <p> Votes: {snack1} </p>
        <button onClick={() => setCount1(snack1 + 1)}>
         Vote 
         </button>
 
-        <p>You voted for {snack2} </p>
+        <p>Votes: {snack2} </p>
        <button onClick={() => setCount2(snack2 + 1)}>
         Vote
         </button>
