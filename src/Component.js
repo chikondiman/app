@@ -8,12 +8,12 @@ function Component() {
      <div>
         <p>You voted for {snack1} </p>
        <button onClick={() => setCount1(snack1 + 1)}>
-        Vote for snacks now!
+        Vote for snacks now
         </button>
 
         <p>You voted for {snack2} </p>
        <button onClick={() => setCount2(snack2 + 1)}>
-        Vote for snacks now!
+        Vote for snacks now
         </button>
       </div>
    );
