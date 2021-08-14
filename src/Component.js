@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Component() {
     const [snack1, setCount1] = useState(0);
     const [snack2, setCount2] = useState(0);
-   const votesAvailable = 3;
+   const [votesAvailable, setVotesAvailable] = useState(3);
     return (
      <div>
         <p> Votes: {snack1} </p>
