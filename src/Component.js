@@ -6,7 +6,7 @@ function Component() {
    const [votesAvailable, setVotesAvailable] = useState(3);
     return (
      <div>
-        <p> Votes left: {votesAvailable} </p>
+        <p> Votes Left: {votesAvailable} </p>
         <p> Votes: {snack1} </p>
        <button onClick={() => setCount1(snack1 + 1), setVotesAvailable(votesAvailable - 1)}>
         Vote here 
