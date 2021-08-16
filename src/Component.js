@@ -9,7 +9,7 @@ function Component() {
 
    function subtractVote()
    {
-     
+     snack1 - 1;
 
    }
     return (
