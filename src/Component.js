@@ -6,13 +6,22 @@ function Component() {
     const snacks = [snack1, snack2];
 
    const [votesAvailable, setVotesAvailable] = useState(3);
+
+   function subtractVote()
+   {
+     
+
+   }
     return (
      <div>
         <p> Votes Left: {votesAvailable} </p>
         <p> Votes: {snack1} </p>
-       <button onClick={() => 
-         setCount1(snack1 + 1)
-         }>
+       <button onClick={() => {
+         setCount1(snack1 + 1);
+         subtractVote(votesAvailable - 1)
+
+
+         }}>
         Vote  
         </button>
 
