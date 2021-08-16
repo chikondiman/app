@@ -21,11 +21,6 @@ function Component() {
         Vote 
         </button>
 
-         <button onClick={() => snacks.map((snack1) => snack1 * 0)}>
-
-         Reset Votes
-
-         </button>
       
       </div>
    );
