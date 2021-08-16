@@ -19,6 +19,13 @@ function Component() {
        <button onClick={() => setCount2(snack2 + 1)}>
         Vote 
         </button>
+
+         <button onClick={() => snacks.map((vote) => vote * 0)}>
+
+         Reset Votes
+
+         </button>
+      
       </div>
    );
   }
