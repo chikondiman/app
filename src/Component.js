@@ -7,9 +7,9 @@ function Component() {
 
    const [votesAvailable, setVotesAvailable] = useState(3);
 
-   function subtractVote()
+   function subtractVote(snack1, votesAvailable)
    {
-     snack1 - 1;
+    return votesAvailable - 1;
 
    }
     return (
