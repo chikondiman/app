@@ -17,8 +17,8 @@ function Component() {
         <p> Votes Left: {votesAvailable} </p>
         <p> Votes: {snack1} </p>
        <button onClick={() => {
-         setCount1(snack1);
-         subtractVote();
+         setCount1(snack1 + 1);
+         subtractVote(snack1);
 
 
          }}>
