@@ -14,7 +14,7 @@ function Component() {
    }
     return (
      <div>
-        <p> Votes Left: {votesAvailable} </p>
+        <p> Votes Remaining: {votesAvailable} </p>
         <p> Votes: {snack1} </p>
        <button onClick={() => {
          setCount1(snack1 + 1);
