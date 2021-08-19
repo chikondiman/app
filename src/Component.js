@@ -5,13 +5,9 @@ function Component() {
     const [snack2, setCount2] = useState(0);
     const snacks = [snack1, snack2];
 
-   const votesAvailable = useState(3);
+   const [votesAvailable, subtractVote] = useState(3);
 
-   function subtractVote(votesAvailable)
-   {
-    return votesAvailable - 1;
-
-   }
+ 
     return (
      <div>
         <p> Remaining Votes: {votesAvailable} </p>
