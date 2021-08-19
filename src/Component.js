@@ -5,8 +5,7 @@ function Component() {
     const [snack2, setCount2] = useState(0);
     const snacks = [snack1, snack2];
 
-   const [votesAvailable, subtractVote] = useState(3);
-
+  
  
     return (
      <div>
