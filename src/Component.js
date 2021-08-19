@@ -6,7 +6,7 @@ function Component() {
     const snacks = [snack1, snack2];
 
    const [votesAvailable, subtractVote] = useState(3);
-
+   if votesAvailable < 3;
  
     return (
      <div>
