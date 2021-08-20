@@ -22,7 +22,7 @@ function Component() {
         Vote  
         </button>
 
-        <p>Votes: {snack2} </p>
+        <p>Nasbisco Oreos: {snack2} </p>
        <button onClick={() => {
          subtractVote(votesAvailable - 1);
          setCount2(snack2 + 1)
