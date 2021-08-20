@@ -10,7 +10,7 @@ function Component() {
  
     return (
      <div>
-        <p> Votes Remaining: {votesAvailable} </p>
+        <p> Votes : {votesAvailable} </p>
         <p> Votes: {snack1} </p>
        <button onClick={() => {
          subtractVote(votesAvailable - 1);
